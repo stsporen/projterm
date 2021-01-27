@@ -44,3 +44,10 @@ Opens the project with the specified ID
 
 Adds a task to the Project
 
+// Project Operations Commands
+
+Incomplete area
+
+
+
+
