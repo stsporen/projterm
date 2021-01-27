@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" targetNamespace="http://schemas.microsoft.com/project" xmlns:mstns="http://schemas.microsoft.com/project" xmlns="http://schemas.microsoft.com/project" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="Project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SaveVersion" type="xs:string" minOccurs="0" />
+        <xs:element name="BuildNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="GUID" type="xs:string" minOccurs="0" />
+        <xs:element name="Title" type="xs:string" minOccurs="0" />
+        <xs:element name="Company" type="xs:string" minOccurs="0" />
+        <xs:element name="CreationDate" type="xs:string" minOccurs="0" />
+        <xs:element name="LastSaved" type="xs:string" minOccurs="0" />
+        <xs:element name="ScheduleFromStart" type="xs:string" minOccurs="0" />
+        <xs:element name="StartDate" type="xs:string" minOccurs="0" />
+        <xs:element name="FinishDate" type="xs:string" minOccurs="0" />
+        <xs:element name="FYStartDate" type="xs:string" minOccurs="0" />
+        <xs:element name="CriticalSlackLimit" type="xs:string" minOccurs="0" />
+        <xs:element name="CurrencyDigits" type="xs:string" minOccurs="0" />
+        <xs:element name="CurrencySymbol" type="xs:string" minOccurs="0" />
+        <xs:element name="CurrencyCode" type="xs:string" minOccurs="0" />
+        <xs:element name="CurrencySymbolPosition" type="xs:string" minOccurs="0" />
+        <xs:element name="CalendarUID" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultStartTime" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultFinishTime" type="xs:string" minOccurs="0" />
+        <xs:element name="MinutesPerDay" type="xs:string" minOccurs="0" />
+        <xs:element name="MinutesPerWeek" type="xs:string" minOccurs="0" />
+        <xs:element name="DaysPerMonth" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultTaskType" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultFixedCostAccrual" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultStandardRate" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultOvertimeRate" type="xs:string" minOccurs="0" />
+        <xs:element name="DurationFormat" type="xs:string" minOccurs="0" />
+        <xs:element name="WorkFormat" type="xs:string" minOccurs="0" />
+        <xs:element name="EditableActualCosts" type="xs:string" minOccurs="0" />
+        <xs:element name="HonorConstraints" type="xs:string" minOccurs="0" />
+        <xs:element name="InsertedProjectsLikeSummary" type="xs:string" minOccurs="0" />
+        <xs:element name="MultipleCriticalPaths" type="xs:string" minOccurs="0" />
+        <xs:element name="NewTasksEffortDriven" type="xs:string" minOccurs="0" />
+        <xs:element name="NewTasksEstimated" type="xs:string" minOccurs="0" />
+        <xs:element name="SplitsInProgressTasks" type="xs:string" minOccurs="0" />
+        <xs:element name="SpreadActualCost" type="xs:string" minOccurs="0" />
+        <xs:element name="SpreadPercentComplete" type="xs:string" minOccurs="0" />
+        <xs:element name="TaskUpdatesResource" type="xs:string" minOccurs="0" />
+        <xs:element name="FiscalYearStart" type="xs:string" minOccurs="0" />
+        <xs:element name="WeekStartDay" type="xs:string" minOccurs="0" />
+        <xs:element name="MoveCompletedEndsBack" type="xs:string" minOccurs="0" />
+        <xs:element name="MoveRemainingStartsBack" type="xs:string" minOccurs="0" />
+        <xs:element name="MoveRemainingStartsForward" type="xs:string" minOccurs="0" />
+        <xs:element name="MoveCompletedEndsForward" type="xs:string" minOccurs="0" />
+        <xs:element name="BaselineForEarnedValue" type="xs:string" minOccurs="0" />
+        <xs:element name="AutoAddNewResourcesAndTasks" type="xs:string" minOccurs="0" />
+        <xs:element name="CurrentDate" type="xs:string" minOccurs="0" />
+        <xs:element name="MicrosoftProjectServerURL" type="xs:string" minOccurs="0" />
+        <xs:element name="Autolink" type="xs:string" minOccurs="0" />
+        <xs:element name="NewTaskStartDate" type="xs:string" minOccurs="0" />
+        <xs:element name="NewTasksAreManual" type="xs:string" minOccurs="0" />
+        <xs:element name="DefaultTaskEVMethod" type="xs:string" minOccurs="0" />
+        <xs:element name="ProjectExternallyEdited" type="xs:string" minOccurs="0" />
+        <xs:element name="ExtendedCreationDate" type="xs:string" minOccurs="0" />
+        <xs:element name="ActualsInSync" type="xs:string" minOccurs="0" />
+        <xs:element name="RemoveFileProperties" type="xs:string" minOccurs="0" />
+        <xs:element name="AdminProject" type="xs:string" minOccurs="0" />
+        <xs:element name="UpdateManuallyScheduledTasksWhenEditingLinks" type="xs:string" minOccurs="0" />
+        <xs:element name="KeepTaskOnNearestWorkingTimeWhenMadeAutoScheduled" type="xs:string" minOccurs="0" />
+        <xs:element name="SprintLength" type="xs:string" minOccurs="0" />
+        <xs:element name="AgileMode" type="xs:string" minOccurs="0" />
+        <xs:element name="Maps" type="xs:string" minOccurs="0" />
+        <xs:element name="Reports" type="xs:string" minOccurs="0" />
+        <xs:element name="DataLinks" type="xs:string" minOccurs="0" />
+        <xs:element name="VBAProjects" type="xs:string" minOccurs="0" />
+        <xs:element name="OutlineCodes" type="xs:string" minOccurs="0" />
+        <xs:element name="WBSMasks" type="xs:string" minOccurs="0" />
+        <xs:element name="ExtendedAttributes" type="xs:string" minOccurs="0" />
+        <xs:element name="Views" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="View" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsCustomized" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Filters" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Filter" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Groups" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Group" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tables" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Table" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Drawings" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Drawing" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Calendars" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Calendar" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsBaseCalendar" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsBaselineCalendar" type="xs:string" minOccurs="0" />
+                    <xs:element name="BaseCalendarUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="WeekDays" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="WeekDay" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="DayType" type="xs:string" minOccurs="0" />
+                                <xs:element name="DayWorking" type="xs:string" minOccurs="0" />
+                                <xs:element name="WorkingTimes" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="WorkingTime" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="FromTime" type="xs:string" minOccurs="0" />
+                                            <xs:element name="ToTime" type="xs:string" minOccurs="0" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tasks" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Task" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Active" type="xs:string" minOccurs="0" />
+                    <xs:element name="Manual" type="xs:string" minOccurs="0" />
+                    <xs:element name="Type" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsNull" type="xs:string" minOccurs="0" />
+                    <xs:element name="CreateDate" type="xs:string" minOccurs="0" />
+                    <xs:element name="WBS" type="xs:string" minOccurs="0" />
+                    <xs:element name="OutlineNumber" type="xs:string" minOccurs="0" />
+                    <xs:element name="OutlineLevel" type="xs:string" minOccurs="0" />
+                    <xs:element name="Priority" type="xs:string" minOccurs="0" />
+                    <xs:element name="Start" type="xs:string" minOccurs="0" />
+                    <xs:element name="Finish" type="xs:string" minOccurs="0" />
+                    <xs:element name="Duration" type="xs:string" minOccurs="0" />
+                    <xs:element name="ManualStart" type="xs:string" minOccurs="0" />
+                    <xs:element name="ManualFinish" type="xs:string" minOccurs="0" />
+                    <xs:element name="ManualDuration" type="xs:string" minOccurs="0" />
+                    <xs:element name="DurationFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="FreeformDurationFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="Work" type="xs:string" minOccurs="0" />
+                    <xs:element name="ResumeValid" type="xs:string" minOccurs="0" />
+                    <xs:element name="EffortDriven" type="xs:string" minOccurs="0" />
+                    <xs:element name="Recurring" type="xs:string" minOccurs="0" />
+                    <xs:element name="OverAllocated" type="xs:string" minOccurs="0" />
+                    <xs:element name="Estimated" type="xs:string" minOccurs="0" />
+                    <xs:element name="Milestone" type="xs:string" minOccurs="0" />
+                    <xs:element name="Summary" type="xs:string" minOccurs="0" />
+                    <xs:element name="DisplayAsSummary" type="xs:string" minOccurs="0" />
+                    <xs:element name="Critical" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsSubproject" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsSubprojectReadOnly" type="xs:string" minOccurs="0" />
+                    <xs:element name="ExternalTask" type="xs:string" minOccurs="0" />
+                    <xs:element name="EarlyStart" type="xs:string" minOccurs="0" />
+                    <xs:element name="EarlyFinish" type="xs:string" minOccurs="0" />
+                    <xs:element name="LateStart" type="xs:string" minOccurs="0" />
+                    <xs:element name="LateFinish" type="xs:string" minOccurs="0" />
+                    <xs:element name="StartVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="FinishVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="WorkVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="FreeSlack" type="xs:string" minOccurs="0" />
+                    <xs:element name="TotalSlack" type="xs:string" minOccurs="0" />
+                    <xs:element name="StartSlack" type="xs:string" minOccurs="0" />
+                    <xs:element name="FinishSlack" type="xs:string" minOccurs="0" />
+                    <xs:element name="FixedCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="FixedCostAccrual" type="xs:string" minOccurs="0" />
+                    <xs:element name="PercentComplete" type="xs:string" minOccurs="0" />
+                    <xs:element name="PercentWorkComplete" type="xs:string" minOccurs="0" />
+                    <xs:element name="Cost" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualDuration" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RegularWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingDuration" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ACWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="CV" type="xs:string" minOccurs="0" />
+                    <xs:element name="ConstraintType" type="xs:string" minOccurs="0" />
+                    <xs:element name="CalendarUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelAssignments" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelingCanSplit" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelingDelay" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelingDelayFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="IgnoreResourceCalendar" type="xs:string" minOccurs="0" />
+                    <xs:element name="HideBar" type="xs:string" minOccurs="0" />
+                    <xs:element name="Rollup" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWS" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="PhysicalPercentComplete" type="xs:string" minOccurs="0" />
+                    <xs:element name="EarnedValueMethod" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsPublished" type="xs:string" minOccurs="0" />
+                    <xs:element name="CommitmentType" type="xs:string" minOccurs="0" />
+                    <xs:element name="BoardStatusColumnOrderingID" type="xs:string" minOccurs="0" />
+                    <xs:element name="SprintColumnOrderingID" type="xs:string" minOccurs="0" />
+                    <xs:element name="NextAvailableBoardStatusColumnOrderingID" type="xs:string" minOccurs="0" />
+                    <xs:element name="NextAvailableSprintOrderingID" type="xs:string" minOccurs="0" />
+                    <xs:element name="SprintUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="BoardColumnUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="PredecessorLink" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="PredecessorUID" type="xs:string" minOccurs="0" />
+                          <xs:element name="Type" type="xs:string" minOccurs="0" />
+                          <xs:element name="CrossProject" type="xs:string" minOccurs="0" />
+                          <xs:element name="LinkLag" type="xs:string" minOccurs="0" />
+                          <xs:element name="LagFormat" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Resources" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Resource" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Type" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsNull" type="xs:string" minOccurs="0" />
+                    <xs:element name="Initials" type="xs:string" minOccurs="0" />
+                    <xs:element name="MaxUnits" type="xs:string" minOccurs="0" />
+                    <xs:element name="PeakUnits" type="xs:string" minOccurs="0" />
+                    <xs:element name="OverAllocated" type="xs:string" minOccurs="0" />
+                    <xs:element name="CanLevel" type="xs:string" minOccurs="0" />
+                    <xs:element name="AccrueAt" type="xs:string" minOccurs="0" />
+                    <xs:element name="Work" type="xs:string" minOccurs="0" />
+                    <xs:element name="RegularWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="PercentWorkComplete" type="xs:string" minOccurs="0" />
+                    <xs:element name="StandardRate" type="xs:string" minOccurs="0" />
+                    <xs:element name="StandardRateFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="Cost" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeRate" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeRateFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="CostPerUse" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="WorkVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="CostVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="SV" type="xs:string" minOccurs="0" />
+                    <xs:element name="CV" type="xs:string" minOccurs="0" />
+                    <xs:element name="ACWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="CalendarUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWS" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsGeneric" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsInactive" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsEnterprise" type="xs:string" minOccurs="0" />
+                    <xs:element name="BookingType" type="xs:string" minOccurs="0" />
+                    <xs:element name="CreationDate" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsCostResource" type="xs:string" minOccurs="0" />
+                    <xs:element name="IsBudget" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Assignments" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Assignment" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="TaskUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ResourceUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="PercentWorkComplete" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ActualWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ACWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="Confirmed" type="xs:string" minOccurs="0" />
+                    <xs:element name="Cost" type="xs:string" minOccurs="0" />
+                    <xs:element name="CostRateTable" type="xs:string" minOccurs="0" />
+                    <xs:element name="RateScale" type="xs:string" minOccurs="0" />
+                    <xs:element name="CostVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="CV" type="xs:string" minOccurs="0" />
+                    <xs:element name="Delay" type="xs:string" minOccurs="0" />
+                    <xs:element name="Finish" type="xs:string" minOccurs="0" />
+                    <xs:element name="FinishVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="WorkVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="HasFixedRateUnits" type="xs:string" minOccurs="0" />
+                    <xs:element name="FixedMaterial" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelingDelay" type="xs:string" minOccurs="0" />
+                    <xs:element name="LevelingDelayFormat" type="xs:string" minOccurs="0" />
+                    <xs:element name="LinkedFields" type="xs:string" minOccurs="0" />
+                    <xs:element name="Milestone" type="xs:string" minOccurs="0" />
+                    <xs:element name="Overallocated" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="OvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RegularWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingOvertimeWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="RemainingWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="ResponsePending" type="xs:string" minOccurs="0" />
+                    <xs:element name="Start" type="xs:string" minOccurs="0" />
+                    <xs:element name="StartVariance" type="xs:string" minOccurs="0" />
+                    <xs:element name="Units" type="xs:string" minOccurs="0" />
+                    <xs:element name="UpdateNeeded" type="xs:string" minOccurs="0" />
+                    <xs:element name="VAC" type="xs:string" minOccurs="0" />
+                    <xs:element name="Work" type="xs:string" minOccurs="0" />
+                    <xs:element name="WorkContour" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWS" type="xs:string" minOccurs="0" />
+                    <xs:element name="BCWP" type="xs:string" minOccurs="0" />
+                    <xs:element name="BookingType" type="xs:string" minOccurs="0" />
+                    <xs:element name="CreationDate" type="xs:string" minOccurs="0" />
+                    <xs:element name="BudgetCost" type="xs:string" minOccurs="0" />
+                    <xs:element name="BudgetWork" type="xs:string" minOccurs="0" />
+                    <xs:element name="TimephasedData" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Type" type="xs:string" minOccurs="0" />
+                          <xs:element name="UID" type="xs:string" minOccurs="0" />
+                          <xs:element name="Start" type="xs:string" minOccurs="0" />
+                          <xs:element name="Finish" type="xs:string" minOccurs="0" />
+                          <xs:element name="Unit" type="xs:string" minOccurs="0" />
+                          <xs:element name="Value" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BoardColumns" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BoardColumn" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sprints" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sprint" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="UID" type="xs:string" minOccurs="0" />
+                    <xs:element name="GUID" type="xs:string" minOccurs="0" />
+                    <xs:element name="ID" type="xs:string" minOccurs="0" />
+                    <xs:element name="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Start" type="xs:string" minOccurs="0" />
+                    <xs:element name="Finish" type="xs:string" minOccurs="0" />
+                    <xs:element name="DurationUnits" type="xs:string" minOccurs="0" />
+                    <xs:element name="Duration" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="Project" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
